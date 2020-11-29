@@ -19,20 +19,20 @@ public class dummyClass {
             "{\"type\":\"FILLED10\",\"value1\":29,\"value2\":-1}," +
             "{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}]," +
             // Two
-            "[{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}," +
-            "{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":23,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":28,\"value2\":-1}," +
-            "{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}," +
-            "{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":19,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":26,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":4,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":9,\"value2\":-1}," +
-            "{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":21,\"value2\":-1}," +
-            "{\"type\":\"FILLED10\",\"value1\":29,\"value2\":-1}," +
-            "{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}]," +
+             "[{\"type\":\"EMPTY\",\"value1\":-1,\"value2\":-1}," +
+             "{\"type\":\"FILLED11\",\"value1\":15,\"value2\":16}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"FILLED10\",\"value1\":11,\"value2\":-1}," +
+             "{\"type\":\"FILLED01\",\"value1\":-1,\"value2\":12}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"FILLED01\",\"value1\":-1,\"value2\":17}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
+             "{\"type\":\"FILLED10\",\"value1\":15,\"value2\":-1}]," +
             // Three
             "[{\"type\":\"FILLED01\",\"value1\":-1,\"value2\":26}," +
             "{\"type\":\"INPUT\",\"value1\":-1,\"value2\":5}," +
