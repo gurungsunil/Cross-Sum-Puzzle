@@ -17,7 +17,7 @@ public class GameView {
     private int gridSizeX;
     private int gridSizeY;
 
-    public GameView(GameController controller) {
+    public GameView(GameController controller,JComponent buttons) {
         if (controller != null) {
             this.controller = controller;
             gridSizeX = controller.model.getRows();
@@ -32,6 +32,8 @@ public class GameView {
         frame.setResizable(false);
         currentBoard= getBoardUi(controller.model.board);
         frame.getContentPane().add(currentBoard);
+        //Button stays at the bottom
+        frame.getContentPane().add(buttons, BorderLayout.AFTER_LAST_LINE);
         frame.pack();
         frame.setSize(x,y);
         frame.setVisible(true);
@@ -110,6 +112,17 @@ public class GameView {
         }
 
         return panel;
+    }
+
+    public void updateView() {
+        //If a panel is already attached to the frame, remove it
+        JPanel newBoardPanel = getBoardUi(controller.model.board);
+        if(currentBoard != null)
+            frame.getContentPane().remove(currentBoard);
+
+        //Save a reference to the new panel
+        frame.getContentPane().add(newBoardPanel);
+        currentBoard = newBoardPanel;;
     }
 
     private void settingTextField(JTextField txt) {
