@@ -143,4 +143,8 @@ public class GameView {
     public void showBoard() {
         currentBoard.setVisible(true);
     }
+
+    public void showFinalMessage(String message){
+        JOptionPane.showMessageDialog(null,message);
+    }
 }

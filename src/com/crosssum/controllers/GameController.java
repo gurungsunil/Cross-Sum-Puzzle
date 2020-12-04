@@ -180,9 +180,9 @@ public class GameController {
         loadInputInModel(false);
         Boolean success = solveBoard();
         if (success)
-            System.out.println("The board is solved!");
+            view.showFinalMessage("Congratulation you solved the Puzzle");
         else
-            System.out.println("The solution is incorrect.");
+            view.showFinalMessage("The solution is incorrect.");
     }
 
     private void loadInputInModel(boolean clearInput) {
