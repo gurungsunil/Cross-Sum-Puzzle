@@ -135,4 +135,8 @@ public class GameView {
         txt.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         txt.setEditable(false);
     }
+
+    public void showFinalMessage(String message){
+        JOptionPane.showMessageDialog(null,message);
+    }
 }
