@@ -11,6 +11,7 @@ import java.util.HashMap;
 public class GameController {
     public GameModel model;
     private GameView view;
+    boolean isPaused = false; // to pause our game
 
     public GameController(final int columns, final int rows) {
         this.model = new GameModel(columns, rows);
@@ -204,5 +205,19 @@ public class GameController {
                 }
             }
         }
+    }
+
+    public void pause() {
+        isPaused = true;
+        view.hideBoard();
+    }
+
+    public void resume() {
+        isPaused = false;
+        view.showBoard();
+    }
+
+    public void restart() {
+        loadInputInModel(true); //Clear inputs
     }
 }

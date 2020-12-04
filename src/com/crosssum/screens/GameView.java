@@ -135,4 +135,12 @@ public class GameView {
         txt.setBorder(javax.swing.BorderFactory.createEmptyBorder());
         txt.setEditable(false);
     }
+
+    public void hideBoard() {
+        currentBoard.setVisible(false);
+    }
+
+    public void showBoard() {
+        currentBoard.setVisible(true);
+    }
 }
