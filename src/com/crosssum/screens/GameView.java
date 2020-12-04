@@ -114,6 +114,10 @@ public class GameView {
         return panel;
     }
 
+    public JTextField[][] getSavedInput(){
+        return cells;
+    }
+
     public void updateView() {
         //If a panel is already attached to the frame, remove it
         JPanel newBoardPanel = getBoardUi(controller.model.board);

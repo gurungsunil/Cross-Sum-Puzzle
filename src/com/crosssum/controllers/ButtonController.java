@@ -29,7 +29,7 @@ public class ButtonController {
         submitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Answer Submitted");
+                gameControl.submit();
             }
         });
         mainPanel.add(startGame).setVisible(true);
