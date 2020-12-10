@@ -7,12 +7,12 @@ public class GameModel {
     private final int columns; //No.  of columns in puzzle.
     private final int rows; // No. of rows in puzzle.
     public Cell[][] board;
-//    private static UniquePartitions partitions;
+
 
     public GameModel(int columns, int rows) {
         this.columns = columns;
         this.rows = rows;
-//        partitions = new UniquePartitions();
+
     }
 
     public void iniBoard() {
